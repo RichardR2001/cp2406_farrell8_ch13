@@ -1,4 +1,4 @@
-// Crestes a file of entrees sold at a restaurant
+// Creates a file of entrees sold at a restaurant
 import java.nio.file.*;
 import java.io.*;
 import static java.nio.file.AccessMode.*;
@@ -8,8 +8,8 @@ public class DebugThirteen3
    public static void main(String[] args)
    {
       Path file =
-         Paths.get("C:\\Java\\Chapter.13\\DebugData4.txt");
-      Scanner kb = new Scanner();
+         Paths.get("/Users/richardreynard/IdeaProjects/cp2406_farrell8_ch13/DebuggingExercises/DebugData4.txt");
+      Scanner kb = new Scanner(System.in);
       String[] array = new String[2];
       String string = "";
       String delimiter = ",";
